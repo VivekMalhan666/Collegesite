@@ -1,0 +1,32 @@
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0; 
+}
+  
+.navbar-dark {
+    background-color: #395ac5; 
+}
+#loginModal p a {
+    color: red;
+    text-decoration: none;
+}
+#loginModal p a:hover {
+    text-decoration: underline;
+}
+.modal-content .modal-header {
+    background-color: #395ac5;
+    color: floralwhite; 
+}
+.modal-content .modal-header .close {
+      color: floralwhite; 
+}
+  
+.modal-content .modal-body {
+    background-color: #d1c4e9; 
+}
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    background: #819efd;
+    color: floralwhite; 
+}

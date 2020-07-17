@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand  mr-4" href="#"><img src="WhatsApp Image 2020-07-15 at 6.24.01 PM.jpeg" alt="" class="img-fluid" height="30"
+                    width="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-info fa-lg"></span> Notice</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span> Items</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a href="#" id="login"  data-toggle="modal" data-target="#loginModal"><span class="fa fa-sign-in"></span> Login</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="loginModal" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close dismissLogin" data-toggle="modal" data-target="#loginModal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4"></div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">Username</label>
+                                <input type="text" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
+                                    placeholder="Enter Username">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4"></div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1"
+                                    id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-sm-5"></div>
+                            <div class="form-group col-sm-4">
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4"></div>
+                            <div class="form-group col-sm-4">
+                            <p>Forgot password? <a href="#">Click Here</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="jumbotron ">
+        <div class="container">
+            <div class="row row-header ">
+                <div class="col-12 col-sm-6">
+                    <h1>Faculty Portal</h1>
+                </div>
+                <div class="col-12 col-sm">
+                    <img src="logo.png" alt="logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+                    
+
+
+
+    <script src="https://use.fontawesome.com/d89739b6a5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

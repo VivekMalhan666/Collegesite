@@ -1,8 +1,7 @@
 body {
     padding: 50px 0px 0px 0px;
     z-index: 0; 
-}
-  
+}  
 .navbar-dark {
     background-color: #395ac5; 
 }
@@ -29,4 +28,21 @@ body {
     padding: 70px 30px;
     background: #819efd;
     color: floralwhite; 
+}
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 40px 0px; 
+}
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f; 
+}
+.card-links{
+    text-decoration: none;
+    color: #2a3136;
+}
+.card-links:hover{
+    text-decoration: underline;
 }

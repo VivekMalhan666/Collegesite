@@ -24,15 +24,15 @@ body {
     background-color: #d1c4e9; 
 }
 .jumbotron {
-    margin: 0px auto;
-    padding: 70px 30px;
+    margin: 0px 0px auto;
+    padding: 70px 0px 70px;
     background: #819efd;
     color: floralwhite; 
 }
 .footer {
     background-color: #D1C4E9;
-    margin: 0px auto;
-    padding: 40px 0px; 
+    margin: 20px auto 0px;
+    padding:20px 0px; 
 }
 address {
     font-size: 80%;
